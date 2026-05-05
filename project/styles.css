@@ -1,0 +1,25 @@
+/* Small tweaks on top of Tailwind */
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* Smoother font rendering on Windows */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Nice scrollbar (supported browsers only) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(148 163 184) transparent;
+}
+
+html.dark * {
+  scrollbar-color: rgb(71 85 105) transparent;
+}
